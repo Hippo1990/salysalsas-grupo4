@@ -1,4 +1,6 @@
 import React from "react";
+import Modalmenu from "./ModalMenu";
+import ContadorMenu from "./ContadorMenu";
 
 class SeccionMenu extends React.Component{
     
@@ -9,9 +11,10 @@ class SeccionMenu extends React.Component{
                 <img src={this.props.Imagendeplato} alt="Salysalsas" className ="img-thumbnail"/>
                 <h3>$25.000</h3>
                 <br></br>
+                <ContadorMenu Identificadordeplato={this.props.Identificadordeplato} />
                 <br></br>
                 <p>{this.props.Descripciondeplato}</p>
-                <button>Hola Soy una etiqueta modal sin programar</button>
+                <Modalmenu Nombredeplato={this.props.Nombredeplato} Descripciondeplato={this.props.Descripciondeplato} />
                 <br></br>
 
             </React.Fragment>
