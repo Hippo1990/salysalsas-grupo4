@@ -8,7 +8,7 @@ class Segundoasidemenu extends React.Component{
                     <div className="col-4"></div>
                     <div className="col-4">
                         <br></br>
-                        <img className="img-responsive" src={this.props.carrito} alt="carrito"  width="150px"/>
+                        <img className="img-responsive" src={this.props.carrito} alt="carrito"  width="300px"/>
                         <br></br>
                         <button>Este boton guarda las variables, perdon aun no function</button>
                     </div>
