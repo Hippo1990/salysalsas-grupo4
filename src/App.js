@@ -1,6 +1,7 @@
 import Menu from './components/menu/Menu'
 import Header from './components/header/Header';
 import Inicio from './components/Inicio/Inicio'
+import Carrito from './components/Carritodecompras/Carrito'
 import {
   BrowserRouter as Router,
   Switch,
@@ -30,6 +31,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      <Carrito />
     
     </div>
   );

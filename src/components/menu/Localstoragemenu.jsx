@@ -11,6 +11,8 @@ class Localstoragemenu extends React.Component{
         function guardar(llave){    
             var saber = document.getElementById(nombredeplato).value;
             localStorage.setItem(nombredeplato, saber);
+            alert("Se ha añadido al carrito " ,);
+            
                    }   
                    
         return(

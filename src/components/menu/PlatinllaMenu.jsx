@@ -22,7 +22,7 @@ class PlatinllaMenu extends React.Component{
                 <div className="container">
                     <div className="row">
                         <div className = "col-4 bg-secondary">
-                        <SeccionMenu Nombredeplato= "Wiener schnitzel" Imagendeplato={Imagen1} Identificadordeplato="Wienerschnitzel" Descripciondeplato="El escalope vienés o wiener schnitzel es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." />
+                        <SeccionMenu Nombredeplato= "Wiener schnitzel" Imagendeplato={Imagen1} Identificadordeplato="Wieners chnitzel" Descripciondeplato="El escalope vienés o wiener schnitzel es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." />
                         </div>
                         <div className = "col-4 bg-info">
                         <SeccionMenu Nombredeplato= "Asado de cerdo" Imagendeplato={Imagen2} Identificadordeplato="Asado de cerdo" Descripciondeplato="El escalope vienés o wiener schnitzel es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." />
@@ -70,7 +70,7 @@ class PlatinllaMenu extends React.Component{
                         <SeccionMenu Nombredeplato= "Powidl" Imagendeplato={Imagen11} Identificadordeplato="Powidl" Descripciondeplato="El escalope vienés o wiener schnitzel es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." />
                         </div>
                         <div className = "col-4 bg-secondary">
-                        <SeccionMenu Nombredeplato= "Krautfleckerlo" Imagendeplato={Imagen12} Identificadordeplato="Krautfleckerlo" Descripciondeplato="El escalope vienés o wiener schnitzel es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." />
+                        <SeccionMenu Nombredeplato= "Powidl" Imagendeplato={Imagen12} Identificadordeplato="Krautfleckerlo" Descripciondeplato="El escalope vienés o wiener schnitzel es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." />
                         </div>
                     </div>
                 </div>
