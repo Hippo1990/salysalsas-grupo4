@@ -8,7 +8,7 @@ class ContadorMenu extends React.Component{
                 <input type="number" min="0" id={this.props.Identificadordeplato}></input>
                 <h3>
                     Cantidad
-                    <Localstoragemenu />
+                    <Localstoragemenu Identificadordeplato ={this.props.Identificadordeplato} />
                 </h3>
             </div>
         );
