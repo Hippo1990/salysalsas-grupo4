@@ -3,11 +3,12 @@ import PlatinllaMenu from './PlatinllaMenu'
 import Primerasidemenu from "./Primerasidemenu";
 import Segundoasidemenu from "./Segundoasidemenu";
 import carrito from '../../Images/carrito.jpgU'
+import "./menu.css"
 
 class Menu extends React.Component{
     render(){
         return(
-                <div>
+                <div className="fondomenu">
                     <div>
                         <Primerasidemenu TituloPrimerasidemenu="BIENVENIDO AL MENU" />
                     </div>

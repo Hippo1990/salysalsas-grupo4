@@ -18,7 +18,7 @@ class Localstoragemenu extends React.Component{
         return(
 
             <div>
-                <button onClick={() => {guardar({identificador})}} >Agregar al menu</button>
+                <button className="btn-block" onClick={() => {guardar({identificador})}} >Agregar al carrito de compras</button>
             </div>
         );
     }

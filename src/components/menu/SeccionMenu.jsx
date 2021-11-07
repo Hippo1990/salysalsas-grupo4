@@ -9,11 +9,11 @@ class SeccionMenu extends React.Component{
             <React.Fragment>
                 <h1>{this.props.Nombredeplato}</h1>
                 <img src={this.props.Imagendeplato} alt="Salysalsas" className ="img-thumbnail"/>
-                <h3>$25.000</h3>
-                <br></br>
+                <h3>Solicite justo aqui</h3>
                 <ContadorMenu Identificadordeplato={this.props.Identificadordeplato} />
                 <br></br>
                 <p>{this.props.Descripciondeplato}</p>
+                <h3>$25.000</h3>
                 <Modalmenu Nombredeplato={this.props.Nombredeplato} Descripciondeplato={this.props.Descripciondeplato} />
                 <br></br>
 

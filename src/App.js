@@ -1,39 +1,52 @@
 import Menu from './components/menu/Menu'
 import Header from './components/header/Header';
+import Footer from './components/footer/pie';
 import Inicio from './components/Inicio/Inicio'
-import Carrito from './components/Carritodecompras/Carrito'
+import Servicio from "./components/servicio/counter1"
+import Reservas from "./components/Reservas/Reservas"
+import Informacion from "./components/Nosotros/Informacion"
+import Carrito from './components/Carritodecompras/Carrito';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
+
+
 function App() {
   return (
-    <div className="App">
-      <Router> 
-        <Header />
+    <><div className="App">
+      
+      
+      <Router>
+      <Header />
+      <div>
         <Switch>
           <Route path="/menu">
             <Menu />
           </Route>
           <Route path="/nosotros">
-            nostros
+            <Informacion />
           </Route>
           <Route path="/reservas">
-            reservas
+            <Reservas />
           </Route>
-          <Route path="/servicios">
-            servicios
+          <Route path="/servicios" >
+            <Servicio />
+          </Route>
+          <Route path="/Carrito" >
+            <Carrito />
           </Route>
           <Route path="/">
-           <Inicio />
+            <Inicio />
           </Route>
+
         </Switch>
+        </div>
+        <Footer/>
       </Router>
-      <Carrito />
-    
-    </div>
+    </div></>
   );
 }
 

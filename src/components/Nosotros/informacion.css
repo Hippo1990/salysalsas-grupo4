@@ -1,0 +1,40 @@
+.head_nosotros {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 120px 10px;
+}
+
+.nosotros_img {
+  width: 550px;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.title2 {
+  font-size: 2.5rem;
+}
+
+.title_p {
+  padding: 0 10px;
+}
+
+.empleados {
+  margin: 0 120px;
+  padding: 50px 0;
+  text-align: center;
+  background: #17a2b8;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.empleados div {
+  margin-bottom: 20px;
+}
+
+.empleados img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}

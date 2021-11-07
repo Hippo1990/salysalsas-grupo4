@@ -16,7 +16,7 @@ const Asideinicio = () =>{
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={imagen1} alt="Los Angeles" width="1100" height="200"></img>
+                    <img src={imagen1} alt="Los Angeles" width="1250" height="200"></img>
                     <div class="carousel-caption">
                         <div class="row">
                             <div class="col-3">
@@ -29,7 +29,7 @@ const Asideinicio = () =>{
                     </div>   
                 </div>
                     <div class="carousel-item">
-                        <img src={imagen1} alt="Chicago" width="1100" height="200"></img>
+                        <img src={imagen1} alt="Chicago" width="1250" height="200"></img>
                         <div class="carousel-caption">
                             <div class="row">
                                 <div class="col-3">
@@ -42,7 +42,7 @@ const Asideinicio = () =>{
                         </div>   
                     </div>
                         <div class="carousel-item">
-                            <img src={imagen1} alt="New York" width="1100" height="200"></img>
+                            <img src={imagen1} alt="New York" width="1250" height="200"></img>
                             <div class="carousel-caption">
                                 <div class="row">
                                     <div class="col-3">
