@@ -6,12 +6,14 @@ import Servicio from "./components/servicio/counter1"
 import Reservas from "./components/Reservas/Reservas"
 import Informacion from "./components/Nosotros/Informacion"
 import Carrito from './components/Carritodecompras/Carrito';
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
+import Login from './components/login/Login';
 
 
 function App() {
@@ -25,6 +27,9 @@ function App() {
         <Switch>
           <Route path="/menu">
             <Menu />
+          </Route>
+          <Route path="/login">
+            <Login />
           </Route>
           <Route path="/nosotros">
             <Informacion />

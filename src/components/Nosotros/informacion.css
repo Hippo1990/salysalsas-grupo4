@@ -1,3 +1,6 @@
+.fondo{
+  background-color: azure;
+}
 .head_nosotros {
   display: flex;
   flex-direction: row;

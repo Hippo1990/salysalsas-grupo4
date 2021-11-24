@@ -54,7 +54,7 @@ class Header extends react.Component{
 
                                             
                     <Link  id="btlg" class="btn btn-light ms-2" to="/login" role="button">
-                      <img id="usrl" src={lg} height="30px" alt="Logo" width="30px" class="rounded-circle"></img>
+                      <img id="usrl" src={lg} height="20px" alt="Logo" width="20px" class="rounded-circle"></img>
                         Login
                     </Link>
 
