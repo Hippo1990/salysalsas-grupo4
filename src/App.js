@@ -6,6 +6,9 @@ import Servicio from "./components/servicio/counter1"
 import Reservas from "./components/Reservas/Reservas"
 import Informacion from "./components/Nosotros/Informacion"
 import Carrito from './components/Carritodecompras/Carrito';
+import Login from './components/LOGIN/login';
+import Recuperar from './components/Recuperar/Recuperar';
+import Usuarionuevo from './components/Usuarionuevo/Usuarionuevo'
 import {
   BrowserRouter as Router,
   Switch,
@@ -37,6 +40,15 @@ function App() {
           </Route>
           <Route path="/Carrito" >
             <Carrito />
+          </Route>
+          <Route path="/Login" >
+            <Login />
+          </Route>
+          <Route path="/Recuperar">
+            <Recuperar />
+          </Route>
+          <Route path="/Crear">
+            <Usuarionuevo />
           </Route>
           <Route path="/">
             <Inicio />

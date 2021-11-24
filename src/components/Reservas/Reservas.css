@@ -1,19 +1,19 @@
-div{
-   
-    background-size:100vw 120vh;
-    background-attachment:local;
+.App2{
+  background-image: url("https://i.ibb.co/znB3Lzt/foto4-2x.png");
+  background-size:100vw 120vh;
+  background-attachment:local;
     
     
     background-repeat: no-repeat;
   }
   
-  h1{
+  .Titulodeservicios{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
     text-align: center;
     color:#6b4e15cb;
     margin-bottom: 3px;
   }
-  form{
+  .formularioservicios{
     
     
     width:450px;
@@ -27,7 +27,7 @@ div{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
   
   }
-  input,textarea,select{
+  .inputservicios, .textareaservicios, select{
     border-radius: 5px;
     margin-bottom: 10px;
     padding:5px;
@@ -36,7 +36,7 @@ div{
     box-sizing: border-box;
   
   }
-  textarea{
+  .textareaservicios{
     max-width: 405px;
     max-height: 200px;
   }
@@ -52,7 +52,7 @@ div{
   
   }
   @media(max-width:480px){
-    form{
+    .formularioservicios{
         width:100%;
     }
   }

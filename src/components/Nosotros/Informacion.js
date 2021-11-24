@@ -7,7 +7,7 @@ import personal3 from "../../Images/personal3@2x.png";
 import personal4 from "../../Images/personal1.2.jpg";
 import personal5 from "../../Images/personal1.3.jpg";
 import personal6 from "../../Images/personal1.4.jpg";
-import Carousel from "../Inicio/Asideinicio"
+import Carousel from "./AsideInformacion"
 
 class Informacion extends React.Component {
   render() {

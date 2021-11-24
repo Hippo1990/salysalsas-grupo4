@@ -1,4 +1,5 @@
 import React from "react";
+import './Reservas.css';
 
 class Reservas extends React.Component{
     render(){
@@ -6,15 +7,15 @@ class Reservas extends React.Component{
             <div className="App2">
             <main>
         
-            <form id="f1">
-            <h1>CONTACTO</h1>
+            <form id="f1" className="formularioservicios">
+            <h1 className="Titulodeservicios">CONTACTO</h1>
                 <label for="Asunto">Asunto:</label>            
-                <input name="nom" id="Asunto" maxlength="20" minlength="10" type="text" placeholder="Asunto" required pattern="[a-z A-Z]+"></input>
+                <input className="inputservicios" name="nom" id="Asunto" maxlength="20" minlength="10" type="text" placeholder="Asunto" required pattern="[a-z A-Z]+"></input>
                 <label for="Nombre">Nombre Completo:</label>            
-                <input name="nom" id="Nombre" maxlength="20" minlength="10" type="text" placeholder="Ingrese su Combre completo" required pattern="[a-z A-Z]+"></input>
+                <input className="inputservicios" name="nom" id="Nombre" maxlength="20" minlength="10" type="text" placeholder="Ingrese su Combre completo" required pattern="[a-z A-Z]+"></input>
     
                 <label for="Correo">Correo electronico:</label>             
-                <input name="mail" id="Correo" maxlength="30" minlength="10" type="email" placeholder="Ingrese su correo electronico" required  ></input>
+                <input className="inputservicios" name="mail" id="Correo" maxlength="30" minlength="10" type="email" placeholder="Ingrese su correo electronico" required  ></input>
     
                 
     
@@ -36,10 +37,10 @@ class Reservas extends React.Component{
                 
                 <label for="cm">Comentarios o Solicitudes especiales:</label>
                
-                <textarea maxlength="390" minlength="10" name="Comentarios" id="cm" cols="30" rows="10" placeholder="Indicaciones" required pattern="[a-z A-Z]+"></textarea>
-                <label id="lchk"><input id= "chk1"type="checkbox" required/> Acepta el Tratamiento de sus datos personales?</label>
+                <textarea className="textareaservicios" maxlength="390" minlength="10" name="Comentarios" id="cm" cols="30" rows="10" placeholder="Indicaciones" required pattern="[a-z A-Z]+"></textarea>
+                <label id="lchk"><input className="inputservicios" id= "chk1"type="checkbox" required/> Acepta el Tratamiento de sus datos personales?</label>
                
-                <input type="submit" name="enviar" id="but"></input>
+                <input className="inputservicios" type="submit" name="enviar" id="but"></input>
     
     
             </form>
