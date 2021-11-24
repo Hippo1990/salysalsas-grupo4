@@ -2,6 +2,7 @@ import react from "react";
 import Logo from '../../Images/logo.png'
 import "./Header.css"
 import imagen1 from '../../Images/carrito.jpgU'
+import lg from "../../Images/16363.png"
 import {
     BrowserRouter as Router,
     Switch,
@@ -11,36 +12,60 @@ import {
 
 class Header extends react.Component{
     render(){
-        return(
-            <div className="Contenedroheader">
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-2">
-                        <img src={Logo} alt="Salysalsas" className ="imagenheader" width="150px"/>
-                        </div>
-                        <div className="col-2">
-                            <br></br>
-                            <Link to="/">Inicio</Link></div>
-                        <div className="col-2">
-                        <br></br>
-                            <Link to="/nosotros">Nosotros</Link></div>
-                        <div className="col-2">
-                        <br></br>
-                            <Link to="menu">Menu</Link></div>
-                        <div className="col-2">
-                        <br></br>
-                            <Link to="reservas">Reservas</Link></div>
-                        <div className="col-1">
-                        <br></br>
-                            <Link to="servicios">Servicios</Link></div>
-                            <div className="col-1">
-                        <br></br>
-                            <Link to="carrito"><img src={imagen1} width="30px"></img></Link></div>
+        return (
+          
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-style">
+              <div class="container-fluid">
+              
+               
+                
+              <Link to="/" class="navbar-brand">
+              <img src={Logo} alt="" width="160" height="60" />
+
+              </Link>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav  ms-auto text-end" >
+                    <Link class="nav-link active" aria-current="page" to="/inicio">
+                      Inicio
+                    </Link>
+                    <Link class="nav-link active" aria-current="page" to="/nosotros">Nosotros</Link>
+                    <Link class="nav-link active" aria-current="page" to="menu">Menu</Link>
+                    <Link class="nav-link active" aria-current="page" to="reservas">Reservas</Link>
+                    <Link class="nav-link active" aria-current="page" to="servicios">Servicios</Link>
+                    
+                    
+                    
+                    <div class="d-flex justify-content-around">
+                    <Link  id="cpr" class="btn btn-light ms-2" to="/carrito" role="button">
+                      <img id="usrl" src={imagen1} height="30px" alt="Logo" width="30px" class="rounded-circle"></img>
+                        Carrito
+                    </Link>
+
+                                            
+                    <Link  id="btlg" class="btn btn-light ms-2" to="/login" role="button">
+                      <img id="usrl" src={lg} height="30px" alt="Logo" width="30px" class="rounded-circle"></img>
+                        Login
+                    </Link>
+
+
                     </div>
                     
+                  </div>
                 </div>
-
-            </div>
+              </div>
+            </nav>
+          
         );
     }
 }

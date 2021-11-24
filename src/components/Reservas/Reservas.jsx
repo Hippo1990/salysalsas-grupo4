@@ -6,8 +6,8 @@ class Reservas extends React.Component{
             <div className="App2">
             <main>
         
-            <form id="f1">
-            <h1>CONTACTO</h1>
+             <form id="f1">
+             <h1>CONTACTO</h1>
                 <label for="Asunto">Asunto:</label>            
                 <input name="nom" id="Asunto" maxlength="20" minlength="10" type="text" placeholder="Asunto" required pattern="[a-z A-Z]+"></input>
                 <label for="Nombre">Nombre Completo:</label>            

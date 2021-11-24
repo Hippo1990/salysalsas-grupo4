@@ -20,7 +20,7 @@ class Targetas extends React.Component{
   
 <div className="volar"className="border margin"> 
                                  <h4>{this.props.Titulo} </h4>
-                                 <p>{this.props.texto}<p className="volar"><button type="button" className="btn btn-warning">Rserva</button></p></p>
+                                 <p>{this.props.texto}<p className="volar"><button type="button" className="btn btn-warning">Reserva</button></p></p>
                                 
         </div>
         </div>  
